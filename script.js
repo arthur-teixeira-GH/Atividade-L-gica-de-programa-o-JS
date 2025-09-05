@@ -44,7 +44,7 @@
             */
             function funcaoadicionar(){
                 let nome_contato = prompt("Digite o nome do contato: ");
-                let numero_contato = prompt("Digite o numero do contato (XX) XXXXX-XXXX: ");
+                let numero_contato = prompt("Digite o numero do contato: ");
                 let email_contato = prompt("Digite o email do contato: ");
             
                 if(funcaovalidar(nome_contato, numero_contato, email_contato) == true){
